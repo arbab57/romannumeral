@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a77c93c32b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="font-roman">
+    <main class="h-screen px-5 bg-blue-950 flex flex-col gap-10 items-center py-32">
+        <h1 class="text-center text-white text-5xl font-bold">Roman Numeral Converter</h1>
+        <div class="py-10 px-5 sm:w-96 w-full bg-blue-900 flex flex-col gap-3 items-center">
+
+            <p class="text-white text-2xl">Enter a Number</p>
+            <input id="number" class="h-10 w-full px-4 text-3xl" type="number">
+            <button id="convert-btn"
+                class="bg-blue-700 px-4 py-3 w-full flex items-center justify-center text-white font-semibold">Convert</button>
+
+            <div class="mt-5">
+                <p class="text-4xl text-white" id="output">
+
+                </p>
+            </div>
+
+
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
